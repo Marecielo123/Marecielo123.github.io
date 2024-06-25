@@ -1,36 +1,85 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=,, initial-scale=1.0">
-    <title>Melo452</title>
-    <style>
-        li {
-        display: inline;
-        }
-    </style>
-    <style>
-        h1 {
-            width: 100%;
-padding: 10px;
-background-color:green;
-margin: 0;
-text-align: center;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coração Caramelo - Adoção e Castração de Animais</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5; /* Cor de fundo caramelo claro */
+        margin: 0;
+        padding: 0;
+    }
+    .header {
+        background-color: #e0b090; /* Cor de fundo caramelo */
+        padding: 10px 0;
+        text-align: center;
+        color: #35524a; /* Cor verde escuro para o texto */
+        position: relative; /* Para permitir posicionamento relativo da marca d'água */
+    }
+    .header::after {
+        content: '';
+        background-image: url('ossinhos.png'); /* URL da imagem dos ossinhos */
+        opacity: 0.1; /* Opacidade da marca d'água */
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1; /* Coloca a marca d'água atrás do conteúdo */
+    }
+    .footer {
+        background-color: #e0b090; /* Cor de fundo caramelo */
+        padding: 10px 0;
+        text-align: center;
+        color: #35524a; /* Cor verde escuro para o texto */
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    .sidebar {
+        background-color: #e0b090; /* Cor de fundo caramelo */
+        color: #35524a; /* Cor verde escuro para o texto */
+        padding: 20px;
+        width: 200px;
+        position: fixed;
+        left: 0;
+        top: 60px; /* Altura da faixa superior */
+        bottom: 60px; /* Altura da faixa inferior */
+    }
+    .content {
+        margin-left: 220px; /* Espaço extra para a faixa lateral esquerda */
+        padding: 20px;
+    }
+    h1 {
+        color: #35524a; /* Cor verde escuro para o título */
+    }
+    p {
+        line-height: 1.6;
+    }
+</style>
 </head>
 <body>
-    <h1>Marcelo de Noronha Melo, RU: 452702</h1>
-    <br> 
-    <br>
-    <img src="glasses.jpg" alt="atividade universitaria" title="atividade universitaria" style="width: 600px;">
-    <p>Olá!Este sítio eletrônico foi criado para atender uma demanda da discliplina de Desenvolvimento Web.</p>
-    <p> Clicando nos links abaixo você poderá me conhecer melhor:</p>
-    <ul>
-        <li><a href="pessoal.html"><img src="Pessoal.jpg" alt="Quem sou eu" title="Quem sou eu" style="width: 250px;"></li></a>
-        <li><a href="formacao.html"><img src="Formacao.jpg" alt="Minha formacao" title="Minha formacao" style="width: 250px;"></li></a>
-        <li><a href="portfolio.html"><img src="Portfolio.jpg" alt="Meu portfolio" title="Meu portfolio" style="width: 250px;"></li></a>
-        <li><a href="contato.html"><img src="Contato.jpg" alt="Contato" title="Contato" style="width: 250px;"></li> </a>
-    </ul>
-</body>             
+
+<div class="header">
+    <h1>Coração Caramelo</h1>
+</div>
+
+<div class="sidebar">
+    <p>Importância da adoção e castração de animais de cães e gatos.</p>
+</div>
+
+<div class="content">
+    <h2>Adoção e Castração de Animais</h2>
+    <p>
+        A adoção e a castração de animais são práticas essenciais para garantir o bem-estar dos cães e gatos. Ao adotar um animal, você não apenas oferece um lar amoroso, mas também contribui para reduzir o número de animais abandonados. A castração, por sua vez, é fundamental para controlar a população de animais de rua e prevenir doenças. Juntos, podemos fazer a diferença na vida desses animais.
+    </p>
+</div>
+
+<div class="footer">
+    <p>&copy; 2024 Coração Caramelo. Todos os direitos reservados.</p>
+</div>
+
+</body>
 </html>
